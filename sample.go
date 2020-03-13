@@ -4,6 +4,7 @@ type Sample struct {
 	Value int64
 }
 
+// SamplePair is a pair of Sample1 and Sample2.
 type SamplePair struct {
 	Sample1 *Sample
 	Sample2 *Sample
