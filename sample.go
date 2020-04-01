@@ -1,5 +1,6 @@
 package redefinitions
 
+// A Sample is a single value.
 type Sample struct {
 	Value int64
 }
